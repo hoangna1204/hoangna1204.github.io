@@ -1,0 +1,17 @@
+.blinkingCursor {
+    width: 2px;
+    height: 1em;
+    background: white;
+    display: inline-block;
+    margin: 0 1px;
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
