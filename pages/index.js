@@ -4,7 +4,7 @@ import Education from "../components/education/education";
 import Skills from "../components/skills/skills";
 import {Divider} from "@material-ui/core";
 
-export default function Home() {
+function Home() {
   return (
     <>
       <About/>
@@ -17,3 +17,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home
